@@ -11,7 +11,7 @@
   
   <title>
     
-      归档 
+      idea翻译插件失败 
       
       
       |
@@ -106,41 +106,137 @@
 
 
       <div class="flex-container">
-        <!-- 归档页，展示本站所有文章，按照年份降序归类，url形式：https://yoursite/archives/ -->
+        <!-- 文章详情页，展示文章具体内容，url形式：https://yoursite/文章标题/ -->
+<!-- 同时为「标签tag」，「朋友friend」，「分类categories」，「关于about」页面的承载页面，具体展示取决于page.type -->
 
-<!-- last: 按年份把文章分组，当前遍历到的年份 -->
-<!-- now: 当前遍历到的文章的发布年份 -->
 
-<div class="container archives">
-  <div class="post-list">
-    
-        <!-- 后续文章的发布年份呈现 -->
-        <div class="content-title">
-          <h2>
-            <span>2022</span>
-          </h2>
+  <!-- LaTex Display -->
+
+  
+    <script async type="text/javascript" src="/plugins/mathjax/tex-chtml.js"></script>
+  
+  <script>
+    MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']]
+      }
+    }
+  </script>
+
+
+
+
+
+  <!-- clipboard -->
+
+  
+    <script async type="text/javascript" src="/plugins/clipboard.min.js"></script>
+  
+  
+<script src="/js/codeCopy.js"></script>
+
+
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+  <!-- 文章内容页 url形式：https://yoursite/文章标题/ -->
+  <div class="container post-details" id="post-details">
+    <div class="post-content">
+      <div class="post-title">idea翻译插件失败</div>
+      <div class="post-attach">
+        <span class="post-pubtime">
+          <i class="iconfont icon-updatetime mr-10" title="Update time"></i>
+          2022-11-18 14:25:37
+        </span>
+        
+              <span class="post-tags">
+                <i class="iconfont icon-tags mr-10" title="Tags"></i>
+                
+                <span class="span--tag mr-8">
+                  <a href="/tags/idea/" title="idea">
+                    #idea
+                  </a>
+                </span>
+                
+              </span>
+          
+      </div>
+      <div class="markdown-body">
+        <p>修改host（windows）（2022-11-09）</p>
+<ol>
+<li>进入该目录，<code>C:\Windows\System32\drivers\etc</code>，hosts文件上右键，把hosts文件的只读去了</li>
+<li>打开hosts文件，加入如下配置</li>
+</ol>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 谷歌翻译修复</span></span><br><span class="line">142.250.4.90 translate.google.com</span><br><span class="line">142.250.4.90 translate.googleapis.com</span><br></pre></td></tr></table></figure>
+
+<p>配置完成后就可以用了，上面的ip可能会失效，若失效，用下面的ip替换</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br></pre></td><td class="code"><pre><span class="line">142.250.4.90</span><br><span class="line">172.253.114.90</span><br><span class="line">172.217.203.90</span><br><span class="line">172.253.112.90</span><br><span class="line">142.250.9.90</span><br><span class="line">172.253.116.90</span><br><span class="line">142.250.97.90</span><br><span class="line">142.250.30.90</span><br><span class="line">142.250.111.90</span><br><span class="line">172.217.215.90</span><br><span class="line">142.250.11.90</span><br><span class="line">142.251.9.90</span><br><span class="line">108.177.122.90</span><br><span class="line">142.250.96.90</span><br><span class="line">142.250.100.90</span><br><span class="line">142.250.110.90</span><br><span class="line">172.217.214.90</span><br><span class="line">172.217.222.90</span><br><span class="line">142.250.31.90</span><br><span class="line">142.250.126.90</span><br><span class="line">142.250.10.90</span><br><span class="line">172.217.195.90</span><br><span class="line">172.253.115.90</span><br><span class="line">142.251.5.90</span><br><span class="line">142.250.136.90</span><br><span class="line">142.250.12.90</span><br><span class="line">142.250.101.90</span><br><span class="line">172.217.192.90</span><br><span class="line">142.250.0.90</span><br><span class="line">142.250.107.90</span><br><span class="line">172.217.204.90</span><br><span class="line">142.250.28.90</span><br><span class="line">142.250.125.90</span><br><span class="line">172.253.124.90</span><br><span class="line">142.250.8.90</span><br><span class="line">142.250.128.90</span><br><span class="line">142.250.112.90</span><br><span class="line">142.250.27.90</span><br><span class="line">142.250.105.90</span><br><span class="line">172.253.126.90</span><br><span class="line">172.253.123.90</span><br><span class="line">172.253.122.90</span><br><span class="line">172.253.62.90</span><br><span class="line">142.250.98.90</span><br><span class="line">142.250.185.238</span><br><span class="line">142.251.116.101</span><br><span class="line">216.58.214.14</span><br><span class="line">142.250.189.206</span><br><span class="line">216.58.209.174</span><br><span class="line">142.250.203.142</span><br><span class="line">142.250.218.14</span><br><span class="line">142.251.10.138</span><br><span class="line">142.251.40.174</span><br><span class="line">142.250.185.174</span><br><span class="line">172.217.16.46</span><br><span class="line">172.217.0.46</span><br><span class="line">172.217.31.142</span><br><span class="line">216.58.220.142</span><br><span class="line">172.217.13.142</span><br><span class="line">172.253.113.90</span><br></pre></td></tr></table></figure>
+
+<p>补充：</p>
+<p>修改hosts文件这种方式，ip会陆续失效，原因是谷歌翻译在退出中国市场，目前可以替代谷歌翻译的是百度翻译，百度翻译在实名了以后，可以切换到高级版（普通版每月可以免费翻译5万字符），每月可以免费翻译100万字符，足够日常使用了。</p>
+<p><a target="_blank" rel="noopener" href="https://fanyi-api.baidu.com/api/trans/product/desktop">百度翻译api地址</a></p>
+<p>注册实名认证以后就可以切换到高级版了</p>
+
+      </div>
+      
+        <div class="prev-or-next">
+          <div class="post-foot-next">
+            
+              <a href="/2022/11/05/hello-world/" target="_self">
+                <i class="iconfont icon-chevronleft"></i>
+                <span>Prev</span>
+              </a>
+            
+          </div>
+          <div class="post-attach">
+            <span class="post-pubtime">
+              <i class="iconfont icon-updatetime mr-10" title="Update time"></i>
+              2022-11-18 14:25:37
+            </span>
+            
+                  <span class="post-tags">
+                    <i class="iconfont icon-tags mr-10" title="Tags"></i>
+                    
+                    <span class="span--tag mr-8">
+                      <a href="/tags/idea/" title="idea">
+                        #idea
+                      </a>
+                    </span>
+                    
+                  </span>
+              
+          </div>
+          <div class="post-foot-prev">
+            
+          </div>
         </div>
       
-      <div class="post-item" title="idea翻译插件失败">
-        <div class="time-m-d">11-18</div>
-        <div class="title">
-          <a href="/2022/11/18/%7Fidea%E7%BF%BB%E8%AF%91%E6%8F%92%E4%BB%B6%E5%A4%B1%E8%B4%A5/">
-            <span>idea翻译插件失败</span>
-          </a>
-        </div>
-      </div>
+    </div>
     
-      <div class="post-item" title="Hello World">
-        <div class="time-m-d">11-05</div>
-        <div class="title">
-          <a href="/2022/11/05/hello-world/">
-            <span>Hello World</span>
-          </a>
-        </div>
+
+    
+      <div class="comments-container">
+        
+
+
+
+
+
+
+
       </div>
     
   </div>
-</div>
+
 
         
 <div class="footer">
@@ -395,6 +491,24 @@
 
 
         
+  
+    <div class="share-icon tools-bar-item">
+      <a href="javascript: void(0)" id="share-icon">
+        <i class="iconfont iconshare"></i>
+      </a>
+      <div class="share-content hidden">
+        
+          <a class="share-item" href="https://twitter.com/intent/tweet?text=' + idea%E7%BF%BB%E8%AF%91%E6%8F%92%E4%BB%B6%E5%A4%B1%E8%B4%A5 + '&url=' + http%3A%2F%2Fexample.com%2F2022%2F11%2F18%2F%257Fidea%25E7%25BF%25BB%25E8%25AF%2591%25E6%258F%2592%25E4%25BB%25B6%25E5%25A4%25B1%25E8%25B4%25A5%2F + '" target="_blank" title="Twitter">
+            <i class="iconfont icon-twitter"></i>
+          </a>
+        
+        
+          <a class="share-item" href="https://www.facebook.com/sharer.php?u=http://example.com/2022/11/18/%7Fidea%E7%BF%BB%E8%AF%91%E6%8F%92%E4%BB%B6%E5%A4%B1%E8%B4%A5/" target="_blank" title="Facebook">
+            <i class="iconfont icon-facebooksquare"></i>
+          </a>
+        
+      </div>
+    </div>
   
   
 <script src="/js/shares.js"></script>
