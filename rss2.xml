@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>liusongdev</title>
+    <link>https://liusongdev.github.io/</link>
+    
+    <image>
+      <url>https://liusongdev.github.io/icon.png</url>
+      <title>liusongdev</title>
+      <link>https://liusongdev.github.io/</link>
+    </image>
+    
+    <atom:link href="https://liusongdev.github.io/rss2.xml" rel="self" type="application/rss+xml"/>
+    
+    <description></description>
+    <pubDate>Tue, 29 Nov 2022 07:08:29 GMT</pubDate>
+    <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>解决win10家庭版无法远程桌面</title>
+      <link>https://liusongdev.github.io/2022/11/29/%E8%A7%A3%E5%86%B3win10%E5%AE%B6%E5%BA%AD%E7%89%88%E6%97%A0%E6%B3%95%E8%BF%9C%E7%A8%8B%E6%A1%8C%E9%9D%A2/</link>
+      <guid>https://liusongdev.github.io/2022/11/29/%E8%A7%A3%E5%86%B3win10%E5%AE%B6%E5%BA%AD%E7%89%88%E6%97%A0%E6%B3%95%E8%BF%9C%E7%A8%8B%E6%A1%8C%E9%9D%A2/</guid>
+      <pubDate>Tue, 29 Nov 2022 07:01:11 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;p&gt;解决win10家庭版无法远程桌面&lt;/p&gt;
+&lt;p&gt;点击下方链接下载完成后，双击运行即可（某些杀毒软件可能会报毒，如360，不用管，继续运行就是，如果不放心可以不用此方法，尝试电脑升级成专业版或者找其他办法解决）&lt;/p&gt;
+&lt;p&gt;&lt;a</description>
+          
+        
+      
+      
+      
+      
+      
+      <category domain="https://liusongdev.github.io/tags/windows/">windows</category>
+      
+      
+      <comments>https://liusongdev.github.io/2022/11/29/%E8%A7%A3%E5%86%B3win10%E5%AE%B6%E5%BA%AD%E7%89%88%E6%97%A0%E6%B3%95%E8%BF%9C%E7%A8%8B%E6%A1%8C%E9%9D%A2/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>idea翻译插件失败</title>
+      <link>https://liusongdev.github.io/2022/11/18/%7Fidea%E7%BF%BB%E8%AF%91%E6%8F%92%E4%BB%B6%E5%A4%B1%E8%B4%A5/</link>
+      <guid>https://liusongdev.github.io/2022/11/18/%7Fidea%E7%BF%BB%E8%AF%91%E6%8F%92%E4%BB%B6%E5%A4%B1%E8%B4%A5/</guid>
+      <pubDate>Fri, 18 Nov 2022 06:25:37 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;p&gt;修改host（windows）（2022-11-09）&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;进入该目录，&lt;code&gt;C:\Windows\System32\drivers\etc&lt;/code&gt;，hosts文件上右键，把hosts文件的只读去了&lt;/li&gt;
+&lt;li&gt;打开hosts文件，加</description>
+          
+        
+      
+      
+      
+      
+      
+      <category domain="https://liusongdev.github.io/tags/idea/">idea</category>
+      
+      
+      <comments>https://liusongdev.github.io/2022/11/18/%7Fidea%E7%BF%BB%E8%AF%91%E6%8F%92%E4%BB%B6%E5%A4%B1%E8%B4%A5/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>Hello World</title>
+      <link>https://liusongdev.github.io/2022/11/05/hello-world/</link>
+      <guid>https://liusongdev.github.io/2022/11/05/hello-world/</guid>
+      <pubDate>Sat, 05 Nov 2022 12:24:20 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt;</description>
+          
+        
+      
+      
+      
+      
+      
+      <category domain="https://liusongdev.github.io/tags/hello-world/">hello world</category>
+      
+      
+      <comments>https://liusongdev.github.io/2022/11/05/hello-world/#disqus_thread</comments>
+      
+    </item>
+    
+  </channel>
+</rss>
